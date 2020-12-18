@@ -36,7 +36,7 @@ export default function Container({ title, fetchUrl, isLargeRow }) {
   const handleClick = (movie) => {
     console.log(movie);
     if (trailerUrl) {
-      setTrailer("");
+      setTrailer(" ");
     } else {
       movieTrailer(movie?.name || movie?.original_title)
         .then((url) => {
