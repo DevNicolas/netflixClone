@@ -1,3 +1,5 @@
+This project was created by React and used Firebase to deploy, Here you can find the live demo: https://netflix-clone-beee2.web.app/
+
 In the project directory, you can run:
 
 npm start
